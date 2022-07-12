@@ -18,6 +18,8 @@
 		D7BF3021287CF10F002E3A36 /* whack.caf in Resources */ = {isa = PBXBuildFile; fileRef = D7BF301F287CF10F002E3A36 /* whack.caf */; };
 		D7BF3022287CF10F002E3A36 /* whackBad.caf in Resources */ = {isa = PBXBuildFile; fileRef = D7BF3020287CF10F002E3A36 /* whackBad.caf */; };
 		D7BF3024287CF4BA002E3A36 /* gameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7BF3023287CF4BA002E3A36 /* gameOver.wav */; };
+		D7BF3026287CF984002E3A36 /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = D7BF3025287CF984002E3A36 /* Smoke.sks */; };
+		D7BF3030287D0551002E3A36 /* Mud.sks in Resources */ = {isa = PBXBuildFile; fileRef = D7BF302F287D0551002E3A36 /* Mud.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		D7BF301F287CF10F002E3A36 /* whack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whack.caf; sourceTree = "<group>"; };
 		D7BF3020287CF10F002E3A36 /* whackBad.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whackBad.caf; sourceTree = "<group>"; };
 		D7BF3023287CF4BA002E3A36 /* gameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameOver.wav; sourceTree = "<group>"; };
+		D7BF3025287CF984002E3A36 /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Smoke.sks; sourceTree = "<group>"; };
+		D7BF302F287D0551002E3A36 /* Mud.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Mud.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +74,10 @@
 			children = (
 				D7B9997F287BA8D7000F35C1 /* AppDelegate.swift */,
 				D7B99981287BA8D7000F35C1 /* GameScene.sks */,
+				D7BF3025287CF984002E3A36 /* Smoke.sks */,
 				D7B99985287BA8D7000F35C1 /* GameScene.swift */,
 				D7B99998287BB0A3000F35C1 /* WhackSlot.swift */,
+				D7BF302F287D0551002E3A36 /* Mud.sks */,
 				D7B99987287BA8D7000F35C1 /* GameViewController.swift */,
 				D7B99989287BA8D7000F35C1 /* Main.storyboard */,
 				D7B9998C287BA8D8000F35C1 /* Assets.xcassets */,
@@ -142,9 +148,11 @@
 				D7BF3021287CF10F002E3A36 /* whack.caf in Resources */,
 				D7B99982287BA8D7000F35C1 /* GameScene.sks in Resources */,
 				D7BF3024287CF4BA002E3A36 /* gameOver.wav in Resources */,
+				D7BF3030287D0551002E3A36 /* Mud.sks in Resources */,
 				D7B9998D287BA8D8000F35C1 /* Assets.xcassets in Resources */,
 				D7B99990287BA8D8000F35C1 /* LaunchScreen.storyboard in Resources */,
 				D7BF3022287CF10F002E3A36 /* whackBad.caf in Resources */,
+				D7BF3026287CF984002E3A36 /* Smoke.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
