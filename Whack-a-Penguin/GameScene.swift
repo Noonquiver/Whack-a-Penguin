@@ -81,14 +81,23 @@ class GameScene: SKScene {
         numRounds += 1
         
         if numRounds >= 30 {
+            gameScore.isHidden = true
+            
             for slot in slots {
                 slot.hide()
             }
             
             let gameOver = SKSpriteNode(imageNamed: "gameOver")
-            gameOver.position = CGPoint(x: 512, y: 384)
+            gameOver.position = CGPoint(x: 512, y: 425)
             gameOver.zPosition = 1
             addChild(gameOver)
+            
+            let finalScore = SKLabelNode(fontNamed: "Chalkduster")
+            finalScore.text = "Final score: \(score)"
+            finalScore.fontSize = 60
+            finalScore.position = CGPoint(x: gameOver.position.x , y: gameOver.position.y - 95)
+            finalScore.zPosition = 1
+            addChild(finalScore)
             
             run(SKAction.playSoundFileNamed("gameOver.wav", waitForCompletion: false))
             
